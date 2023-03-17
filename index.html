@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ToDoList</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="div1" id="d1">
+        <div class="screen" id="s1">
+          <span id="min">00</span>
+          <span>:</span>
+          <span id="sec">00</span>
+        </div>
+      </div>
+      <div class="div2">
+        <div class="ses" id="ss">Session</div>
+        <div class="dot">..................................................</div>
+        <div class="txtBtns">
+          <div class="Box1">
+            <div>session time</div>
+            <div id="Smin">15 min</div>
+            <div>
+              <span>
+                <button id="Sdec" onclick="sessionDecrease()">-</button>
+              </span>
+              <span>
+                <button id="Sinc" onclick="sessionIncrease()">+</button>
+              </span>
+            </div>
+          </div>
+          <div class="Box2">
+            <div>break time</div>
+            <div id="Bmin">5 min</div>
+            <div>
+              <span>
+                <button id="Bdec" onclick="breakDecrease()">-</button>
+              </span>
+              <span>
+                <button id="Binc" onclick="breakIncrease()">+</button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="dot">..................................................</div>
+        <div class="btns">
+          <span>
+            <button id="start" onclick="start()">Start</button>
+            <button id="pause" class="disable" onclick="pause()">Pause</button>
+          </span>
+          <span>
+            <button id="reset" onclick="reset()">Reset</button>
+          </span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

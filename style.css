@@ -1,0 +1,106 @@
+body{
+  background-color: rgba(240, 179, 66, 0.699);
+  display: flex;
+  justify-content: center;
+}
+.container{
+  height: 500px;
+  width: 220px;
+  background-color: rgba(24, 22, 22, 0.705);
+  box-shadow: 5px 10px 18px rgba(24, 22, 22, 0.705);
+  border-radius: 5px;
+}
+.div1{
+  height: 210px;
+  width: 192px;
+  margin-top: 12px;
+  margin-left: 13px;
+  background-color: rgb(45, 177, 230);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+}
+.screen{
+  height: 190px;
+  width: 170px;
+  background-color: rgb(233, 231, 231);
+  margin-top: 9px;
+  border-radius: 3px;
+  font-size: 50px;
+  color: rgb(45, 177, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div2{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.div2 .ses{
+  color: rgb(233, 231, 231);
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+.dot{
+  color: rgb(233, 231, 231);
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.btns{
+  margin-top: 10px;
+  margin-left: 35px;
+}
+#pause,#reset,#start{
+  height: 40px;
+  width: 65px;
+  background-color: rgb(39, 35, 35);
+  color: rgb(233, 231, 231);
+  border-radius: 4px;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+#reset{
+  margin-left: 25px;
+}
+.disable{
+  display: none;
+}
+.txtbtns{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.Box1{
+  display: flex;
+  flex-direction: column;
+  color: rgb(233, 231, 231);
+}
+.Box2{
+  margin-left: 20px;
+  color: rgb(233, 231, 231);
+}
+#Smin{
+  color: rgb(45, 177, 230);
+  font-size: 25px;
+  margin-left: 10px;
+}
+#Bmin{
+  color: orangered;
+  font-size: 25px;
+  margin-left: 10px;
+}
+#Sinc,#Sdec,#Binc,#Bdec{
+  background-color: rgb(39, 35, 35);
+  color: rgb(233, 231, 231);
+  border-radius: 2px;
+  border: none;
+  width: 25px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#Sinc,#Binc{
+  margin-left: 10px;
+}
